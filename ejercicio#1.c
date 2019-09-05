@@ -51,7 +51,7 @@ do{
 				costo=2.5;
 			}else
 			{
-				if (asiento!=sala[0][i] && asiento!=sala[4][i] )
+				if (asiento==sala[1][i] || asiento==sala[2][i] || asiento==sala[3][i])
 						{
 							costo=3.5;
 						}
